@@ -65,14 +65,14 @@ of the MIT license. To use it, upload the full contents of `demo-site` to the
 
 ## How it works
 
-*See [these][intro] blog [posts][deploying] for more info on using/deploying
-hugo-lambda*
+_See [these][intro] blog [posts][deploying] for more info on using/deploying
+hugo-lambda_
 
 Lambda is a service that lets you define a node.js function and have it run
 whenever a specific trigger happens. These triggers can be new objects in S3,
 events in a [Kinesis][kinesis] stream, or DynamoDB table updates. Those
 functions can access other buckets, download files, or do just about anything
-else. The kicker is *you only pay for the time your function is running*.
+else. The kicker is _you only pay for the time your function is running_.
 Instead of paying for an instance 24/7 to react to events, you only pay for the
 time spent actually reacting. This makes lambda incredibly cheap for cases
 where you have an infrequent event that requires some action to happen.
@@ -131,12 +131,11 @@ your function group.
 ## Contributing
 
 Questions, suggestions, bug reports, and contributions are welcome as pull
-requests or issues on this repo.  Please see the [Contributor code of
+requests or issues on this repo. Please see the [Contributor code of
 conduct][conduct] for community guidelines.
 
 This project is released under the GNU Affero General Public License, see
 [LICENSE.txt][license] for the full text of the license.
-
 
 [hugo]: https://github.com/spf13/hugo
 [lambda]: https://aws.amazon.com/lambda/
